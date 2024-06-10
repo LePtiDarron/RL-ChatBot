@@ -16,9 +16,13 @@ Running the Main Script
 The main script main.py allows you to choose different options for training, testing, or engaging in dialogues with the models.
 
 Arguments
+
 -o, --option: Choose an option from seq, rl, test, dialogue.
+
 -n, --name: Specify the primary model name.
+
 -N, --name2: (Optional) Specify the secondary model name (required for the dialogue option).
+
 -e, --epoch: (Optional) Specify the number of iterations for training.
 
 ### Seq2Seq Training
